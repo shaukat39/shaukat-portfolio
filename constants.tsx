@@ -67,3 +67,68 @@ export const PROJECTS: Project[] = [
     githubUrl: 'https://github.com/shaukat39',
   },
 ];
+
+import React from 'react';
+
+export const SKILLS: Skill[] = [
+  {
+    category: 'AI & LLMs',
+    items: ['LangChain', 'OpenAI SDK', 'LlamaIndex', 'AutoGPT'],
+    icon: <Brain className="w-6 h-6 text-indigo-600" />
+  },
+  {
+    category: 'Automation',
+    items: ['n8n', 'Zapier', 'Make (Integromat)', 'Webhooks'],
+    icon: <Zap className="w-6 h-6 text-indigo-600" />
+  },
+  {
+    category: 'Backend',
+    items: ['Python', 'FastAPI', 'Node.js', 'Express'],
+    icon: <Server className="w-6 h-6 text-indigo-600" />
+  },
+  {
+    category: 'Cloud & DevOps',
+    items: ['Docker', 'AWS Lambda', 'GCP Functions', 'Terraform'],
+    icon: <Cloud className="w-6 h-6 text-indigo-600" />
+  },
+  {
+    category: 'Databases',
+    items: ['Postgres', 'MongoDB', 'Redis', 'Pinecone'],
+    icon: <Database className="w-6 h-6 text-indigo-600" />
+  }
+];
+
+export const SERVICES: Service[] = [
+  {
+    title: 'AI Chatbots & Agents',
+    description: 'Custom AI solutions using RAG (Retrieval-Augmented Generation) and multi-agent systems for complex tasks.',
+    icon: <Bot className="w-8 h-8 text-indigo-600" />
+  },
+  {
+    title: 'Workflow Automation',
+    description: 'Connecting your favorite apps to create seamless, hands-free business processes.',
+    icon: <Workflow className="w-8 h-8 text-indigo-600" />
+  },
+  {
+    title: 'SaaS Architecture',
+    description: 'Scalable, secure, and production-ready backend systems built for modern startups.',
+    icon: <Layers className="w-8 h-8 text-indigo-600" />
+  },
+  {
+    title: 'Cloud Deployments',
+    description: 'Automated CI/CD pipelines and infrastructure as code for reliable production environments.',
+    icon: <Globe className="w-8 h-8 text-indigo-600" />
+  },
+  {
+    title: 'Data Pipelines',
+    description: 'Structured ETL/ELT processes to move and transform data for business intelligence.',
+    icon: <BarChart3 className="w-8 h-8 text-indigo-600" />
+  }
+];
+
+export const STATS: Stat[] = [
+  { label: 'Automations Built', value: '25+' },
+  { label: 'Projects Completed', value: '15+' },
+  { label: 'Hours Saved/Month', value: '200+' },
+  { label: 'Client Satisfaction', value: '100%' }
+];
