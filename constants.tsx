@@ -25,6 +25,16 @@ export const PROJECTS: Project[] = [
     githubUrl: 'https://github.com/shaukat39',
   },
 
+  {
+  id: '7',                          // increment the id
+  title: 'WorldCup AI: Football Intelligence Platform',
+  description: 'WorldCup AI is an intelligent football platform that combines AI-powered match analysis, real-time predictions, and community engagement. It helps football fans understand match dynamics, share insights, and grow their influence through a unique creator economy—all powered by advanced artificial intelligence.',
+  image: '/screenshots/football-ai.png',             // screenshot URL or picsum placeholder
+  tags: ['FastAPI', 'Flutter', 'PostgreSQL','Redis','AI/ML','Analytics'], // 3–6 tags
+  liveUrl: 'https://football-worldcup.netlify.app/', // or your GitHub if no live demo
+  githubUrl: 'https://github.com/shaukat39',
+  },
+
   // ── EXISTING PROJECTS ─────────────────────────────────────
   {
     id: '1',
