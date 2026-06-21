@@ -9,7 +9,7 @@ export const PROJECTS: Project[] = [
       'Multi-agent AI platform for CA firms and FinTech companies. Automates financial report generation, QA gating, and multi-client workspace management. Integrates QuickBooks Online OAuth, Lemon Squeezy billing, and JWT-secured multi-tenancy.',
     image: '/screenshots/finca-dashboard.png',
     tags: ['Node.js', 'React', 'PostgreSQL', 'Claude AI', 'QuickBooks', 'Multi-Agent'],
-    liveUrl: 'https://github.com/shaukat39',
+    liveUrl: 'https://finca-frontend-production.up.railway.app/',
     githubUrl: 'https://github.com/shaukat39',
   },
 
