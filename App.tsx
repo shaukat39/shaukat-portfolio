@@ -1,13 +1,14 @@
-
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Products from './components/Products';
 import Services from './components/Services';
 import Stats from './components/Stats';
 import Contact from './components/Contact';
+import Legal from './components/Legal';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -19,9 +20,11 @@ const App: React.FC = () => {
         <About />
         <Skills />
         <Projects />
+        <Products />
         <Services />
         <Stats />
         <Contact />
+        <Legal />
       </main>
       <Footer />
     </div>
