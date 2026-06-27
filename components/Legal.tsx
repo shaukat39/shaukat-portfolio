@@ -35,7 +35,7 @@ const POLICY_CONTENT: Record<PolicyKey, { sections: { heading: string; body: str
       },
       {
         heading: '6. Contact',
-        body: 'For privacy-related queries: shayat10943@gmail.com | Office: House 39, Street 4, Gulshan-e-Iqbal, Rawalpindi, Pakistan | Phone: +92 300 0000000',
+        body: 'For privacy-related queries: shayat10943@gmail.com | Office: Flate No.26-D, Street 8, Askari 4,Chaklala, Rawalpindi, Punjab, Pakistan | Phone: +92 332 1326146',
       },
     ],
   },
@@ -123,7 +123,7 @@ const POLICY_CONTENT: Record<PolicyKey, { sections: { heading: string; body: str
       },
       {
         heading: '9. Contact',
-        body: 'Legal enquiries: shayat10943@gmail.com | House 39, Street 4, Gulshan-e-Iqbal, Rawalpindi, Pakistan | Phone: +92 300 0000000',
+        body: 'Legal enquiries: shayat10943@gmail.com | Flate No.26-D, Street 8, Askari 4,Chaklala, Rawalpindi, Punjab, Pakistan | Phone: +92 332 1326146',
       },
     ],
   },
